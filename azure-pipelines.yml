@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'ubuntu-latest'
+pool: nomad-build-agents
 
 steps:
 - task: NodeTool@0
